@@ -8,7 +8,9 @@ CoEntry >> beginsWith: aString [
 
 { #category : '*Camel-Case-Matching' }
 CoEntry >> matchesCamelCaseCompletionToken: aString caseSensitive: aBoolean [
-
+	"Default implementation always returns false.
+	Actual camelCase matching logic is implemented in subclasses."
+	
 	^ false
 ]
 
