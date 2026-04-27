@@ -1,8 +1,8 @@
 Class {
 	#name : 'BaselineOfCamelCaseMatching',
 	#superclass : 'BaselineOf',
-	#category : 'BaselineCamelCaseMatching',
-	#package : 'BaselineCamelCaseMatching'
+	#category : 'BaselineOfCamelCaseMatching',
+	#package : 'BaselineOfCamelCaseMatching'
 }
 
 { #category : 'baselines' }
