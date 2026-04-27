@@ -4,6 +4,5 @@ Extension { #name : 'CoCaseSensitiveBeginsWithFilter' }
 CoCaseSensitiveBeginsWithFilter >> accepts: aCandidate [
 
 	^ (self candidate: aCandidate matchesPrefixCaseSensitive: true)
-		or: [ NECPreferences camelCaseGlobalMatching
-			and: [ self candidate: aCandidate matchesCamelCaseCaseSensitive: true ] ]
+		or: [ self candidate: aCandidate matchesCamelCaseCaseSensitive: true ]
 ]

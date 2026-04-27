@@ -3,8 +3,7 @@ Extension { #name : 'CoGlobalVariableFetcher' }
 { #category : '*Camel-Case-Matching' }
 CoGlobalVariableFetcher >> entriesDo: aBlock [
 
-	NECPreferences camelCaseGlobalMatching
-		ifTrue: [ ^ self entriesDoWithFullEnvironmentScan: aBlock ].
+   self entriesDoWithFullEnvironmentScan: aBlock .
 
 	self systemNavigation
 		allGlobalNamesStartingWith: filter completionString
