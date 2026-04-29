@@ -12,11 +12,6 @@ CoGlobalEntryTest >> testCamelCasePartsOf [
 ]
 
 { #category : 'testing' }
-CoGlobalEntryTest >> testMatchTokenAgainstPartsPartIndexWhenEmptyToken [
-	
-]
-
-{ #category : 'testing' }
 CoGlobalEntryTest >> testMatchTokenAgainstPartsPartIndexWhenEmptyTokenWithParts [
 	self assert:(CoGlobalEntry new matchToken: '' againstParts: #('foo' 'bar') partIndex: 1) equals:	true
 ]
